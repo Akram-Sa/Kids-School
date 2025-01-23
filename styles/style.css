@@ -123,3 +123,229 @@
 .banner-heading p {
   font-size: 20px;
 }
+
+/* standard curriculum */
+
+.Standard-Curriculum-container {
+  width: 1440px;
+  height: 879px;
+  padding: 60px 0;
+}
+
+.Standard-Curriculum-container h1 {
+  font-size: 46px;
+  font-weight: bold;
+  width: 460.61px;
+  height: 57.5px;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 60px;
+}
+
+.Standard-cards-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: space-between;
+  /* flex-wrap: wrap; */
+  /* flex-direction: row; */
+  justify-content: space-around;
+  /* gap: 48.29px; */
+  /* width: 160px; */
+  height: 481.5px;
+  justify-content: center;
+  /* margin-left: 70px; */
+  /* margin-right: 100px; */
+  padding: 80px 0;
+}
+
+.Standard-card-container {
+  width: 330.8px;
+  height: 486.78px;
+  font-size: 16px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 10px gray;
+}
+
+.card1 {
+  background: linear-gradient(#def5ff, #ffffff);
+}
+
+.card2 {
+  background: linear-gradient(#fff4dc, #ffffff);
+}
+
+.card3 {
+  background: linear-gradient(#f2e8ff, #ffffff);
+}
+
+.Standard-card-container a {
+  text-decoration: none;
+  color: orange;
+}
+
+.arrow-container {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 30px;
+}
+
+.arrow-container .arrow {
+  background-color: orange;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease;
+  margin: 0 5px;
+}
+
+.arrow-container .arrow:hover {
+  transform: scale(1.1);
+}
+
+.arrow-container .arrow a {
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* our story */
+
+/* Container Styling */
+.our-stories-container {
+  text-align: center;
+  background: linear-gradient(
+      0deg,
+      rgba(254, 163, 1, 0.3) 0%,
+      rgba(255, 255, 255, 0.3) 100%
+    ),
+    url("./assets/bg.png");
+  background-position: center top;
+  padding: 50px 0px;
+}
+.our-stories-container h1 {
+  font-size: 46px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+/* Grid Layout */
+.our-stories-cards-container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 20px;
+  /* align-items: start; */
+  margin: 0 auto;
+  max-width: 1200px;
+}
+.large-card {
+  background: white;
+  border-radius: 16px;
+  width: 601px;
+  height: 622px;
+  /* padding: 20px; */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+.large-card img {
+  width: 100%;
+  border-radius: 16px 16px 0 0;
+}
+.large-card h2 {
+  font-size: 24px;
+  font-weight: bold;
+  width: 463.57px;
+  height: 76.69px;
+  /* margin: 15px 0;  */
+  /* align-items: center; */
+}
+.large-card .description {
+  color: #555;
+  font-size: 15.34px;
+  line-height: 1.6;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+/* Small Cards Grid */
+.small-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 601px;
+  height: 640px;
+  gap: 20px;
+}
+.story-card {
+  background: white;
+  border-radius: 16px;
+  height: 280px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.story-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 16px 16px 0 0;
+}
+.story-card h4 {
+  font-size: 15px;
+  font-weight: bold;
+  margin: 10px;
+}
+
+.date {
+  /* font-size: 14px;
+    font-weight: bold;
+    color: white;
+    padding: 8px;
+    border-radius: 20px;
+    display: inline-block;
+    margin: 10px; */
+  width: 150.51px;
+  padding: 10px;
+  font-size: 15.35px;
+  border-radius: 47.93px;
+  position: relative;
+  top: -25px;
+  left: -50px;
+  text-align: center;
+  color: white;
+}
+.blue-date-bg {
+  background-color: #3cd8e8;
+  margin-right: 310px;
+}
+.green-date-bg {
+  background-color: #95b226;
+}
+.navyBlue-data-bg {
+  background-color: #5d58f0;
+}
+
+/* Button Styling */
+.view-all-button {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 12px 24px;
+  background: #111111;
+  color: white;
+  width: 120px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 12px;
+  text-decoration: none;
+}
