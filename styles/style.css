@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+* {
+  /* max-width: 1280px; */
+  margin: auto;
+  font-family: "Quicksand", serif;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* margin: 0 auto; */
+  margin-left: 115px;
+  width: 1440px;
+  height: 102px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  font-size: 32px;
+  font-weight: bold;
+  width: 202px;
+  height: 62px;
+  gap: 11px;
+}
+
+.logo img {
+  width: 62px;
+  height: 62px;
+}
+.nav-item ul {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+  font-size: 20px;
+}
+
+.nav-item li {
+  margin-right: 15px;
+}
+
+.nav-item a {
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.nav-item li:first-child a {
+  font-weight: bold;
+  color: #fea301;
+}
+.nav-item li:nth-child(2) a {
+  color: #01acfd;
+}
+.nav-item li:nth-child(3) a {
+  color: #05d4df;
+}
+.nav-item li:nth-child(4) a {
+  color: #5d58ef;
+}
+
+.contact-btn {
+  background-color: rgb(240, 103, 34);
+  margin-left: 175px;
+}
+.contact-btn:hover {
+  background-color: chocolate;
+}
+
+/* same-btn */
+.same-btn {
+  padding: 10px;
+
+  border: none;
+  border-radius: 10px;
+  width: 197px;
+  height: 50px;
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 400;
+}
+.enroll-btn {
+  background-color: black;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 24px;
+}
+
+/* banner */
+
+.banner-container {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  /* width: 1158.61px; */
+  width: 1440px;
+  height: 575px;
+  /* margin-left: 151px;
+  margin-right: 140.39px; */
+  margin: 0 auto;
+  gap: 50px;
+}
+.banner-container img {
+  width: 500.61px;
+  height: 575px;
+}
+
+.banner-container .empowering {
+  color: #fea301;
+}
+.banner-container .towards-vision {
+  color: #007bff;
+}
+
+.banner-heading {
+  width: 640px;
+}
+.banner-heading h1 {
+  font-size: 56px;
+  font-weight: bold;
+  margin-bottom: 24px;
+}
+.banner-heading p {
+  font-size: 20px;
+}
