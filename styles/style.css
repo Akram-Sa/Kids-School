@@ -262,7 +262,7 @@ section {
 }
 .large-card img{
   width: 100%;
-  border-radius: 16px;
+  border-radius: 16px  16px 0 0;
 }
 .large-card h2{
   padding: 0px 0px 0 70px;
@@ -276,7 +276,7 @@ section {
 }
 .small-cards img{
   width: 100%;
-  border-radius: 16px;
+  border-radius: 16px 16px 0 0;
 }
 .small-cards h4{
   padding: 0 0 0 50px;
@@ -359,7 +359,7 @@ section {
   .nav-items {
     display: none;
   }
-  button {
+  .nav-container button {
     display: none;
   }
   .nav-container .menu-bar {
@@ -390,11 +390,15 @@ section {
   .banner-image img {
     width: 100%;
   }
-
+.banner-btn{
+  text-align: center;
+}
   /* Crurriculum */
 
   .curriculum-head h3{
     font-size: 25px;
+    padding-top: 18px;
+    padding-bottom: 60px;
   }
   .curriculum-cards {
     display: grid;
@@ -410,4 +414,55 @@ section {
   .arrow-container{
     display: none;
   }
+
+  /* Stroy */
+  .story-container {
+    padding: 0 0 10px;
+  }
+  .story-container .story-head h3{
+    font-size: 16px;
+    padding-top: 35px;
+    padding-bottom: 20px;
+  }
+.large-card{
+  display: none;
+}
+.story-cards {
+  grid-template-columns: auto;
+  padding: 10px;
+}
+.small-cards {
+  gap: 10px;
+}
+.small-cards h4 {
+  padding: 0 15px; 
+  font-size: 12px;
+}
+
+/* date */
+.date1 {
+  font-size: 10px;
+  height: 10px;
+  width: 100px;
+  top: -21px;
+  left: 10px; 
+}
+.date2{
+  font-size: 10px;
+  height: 10px;
+  width: 80px;
+  top: -21px;
+  left: 10px;
+}
+
+/* Adjust button */
+.view-btn{
+  padding-top: 15px;
+  padding-bottom: 30px;
+}
+.story-container button {
+  width: 150px;
+  height: 40px;
+  font-size: 14px;
+}
 }
