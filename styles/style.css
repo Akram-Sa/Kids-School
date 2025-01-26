@@ -116,6 +116,15 @@
   background-color: #01acfd;
 }
 
+.main-part{
+  background: linear-gradient(
+      0deg,
+      rgba(254, 163, 1, 0.3) 0%,
+      rgba(255, 255, 255, 0.3) 100%
+    ),
+    url("./assets/bg.png");
+  background-position: center top;
+}
 /* Standard curriculum */
 section {
   margin-top: 0px;
@@ -220,7 +229,7 @@ section {
 
 .story-container{
   padding: 0 140px;
-  /* border: 1px solid chocolate; */
+  
 }
 /* head */
 
@@ -248,7 +257,7 @@ section {
   gap: 20px;
 }
 .large-card{
-  background-color: antiquewhite;
+  background-color: white;
   border-radius: 16px;
 }
 .large-card img{
@@ -262,7 +271,7 @@ section {
   padding: 25px 50px 20px 70px;
 }
 .story-card{
-  background-color: #05d4df;
+  background-color: white;
   border-radius: 16px;
 }
 .small-cards img{
@@ -319,7 +328,21 @@ section {
 .navyBlue-data-bg {
   background-color: #5d58f0;
 }
-
+.view-btn{
+  text-align: center;
+  padding-top: 80px;
+}
+.story-container button {
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  width: 197px;
+  height: 50px;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px;
+}
 @media screen and (max-width: 576px) {
   header {
     margin: 0;
