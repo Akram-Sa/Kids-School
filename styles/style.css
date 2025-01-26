@@ -229,6 +229,7 @@ section {
 
 .story-container{
   padding: 0 140px;
+  padding-bottom: 30px;
   
 }
 /* head */
@@ -342,6 +343,54 @@ section {
   font-size: 20px;
   font-weight: bold;
   padding: 10px;
+}
+/* footer */
+.footer-container{
+  height: 250px;
+  padding: 123px;
+  background-color: #01acfd;
+}
+.footer{
+  display: flex;
+  justify-content: space-around;
+  color: white;
+}
+.footer-logo{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+}
+.footer-logo h4{
+  font-size: 30px;
+}
+.footer-1st-section{
+  width: 500px;
+}
+.footer-1st-section p{
+  padding-left: 20px;
+}
+.footer-link{
+  list-style: none;
+}
+.footer-link h4{
+  font-size: 20px;
+}
+.footer-link li{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.footer-link a{
+  text-decoration: none;
+  color: white;
+}
+.social-container h4{
+font-size: 20px;
+margin-bottom: 10px;
+}
+.footer-keep-logo{
+  display: flex;
+  gap: 10px;
 }
 @media screen and (max-width: 576px) {
   header {
@@ -464,5 +513,10 @@ section {
   width: 150px;
   height: 40px;
   font-size: 14px;
+}
+
+/* footer */
+.footer-container{
+  flex-direction: column;
 }
 }
