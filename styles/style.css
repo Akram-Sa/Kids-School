@@ -215,6 +215,111 @@ section {
   color: white;
   font-size: 24px;
 }
+
+/* Story */
+
+.story-container{
+  padding: 0 140px;
+  /* border: 1px solid chocolate; */
+}
+/* head */
+
+.story-head{
+  padding: 0 144px;
+  /* border: 4px solid cornflowerblue; */
+}
+.story-container .story-head h3{
+  font-size: 46px;
+  padding-top: 60px;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+/* cards */
+
+.story-cards{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+.small-cards{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+.large-card{
+  background-color: antiquewhite;
+  border-radius: 16px;
+}
+.large-card img{
+  width: 100%;
+  border-radius: 16px;
+}
+.large-card h2{
+  padding: 0px 0px 0 70px;
+}
+.large-card .description{
+  padding: 25px 50px 20px 70px;
+}
+.story-card{
+  background-color: #05d4df;
+  border-radius: 16px;
+}
+.small-cards img{
+  width: 100%;
+  border-radius: 16px;
+}
+.small-cards h4{
+  padding: 0 0 0 50px;
+}
+/* date part */
+
+.date{
+  color: white;
+  width: 170.51px;
+  height: 22px;
+  padding: 10px;
+  text-align: center;
+   font-size: 15.35px;
+   border-radius: 47.93px;
+   position: relative;
+   top: -25px;
+   left: 70px;
+}
+.date1{
+  color: white;
+  width: 160.51px;
+  height: 20px;
+  padding: 10px;
+  text-align: center;
+   font-size: 15.35px;
+   border-radius: 47.93px;
+   position: relative;
+   top: -25px;
+   left: 40px;
+}
+.date2{
+  color: white;
+  width: 130.51px;
+  height: 20px;
+  padding: 10px;
+  text-align: center;
+   font-size: 15.35px;
+   border-radius: 47.93px;
+   position: relative;
+   top: -25px;
+   left: 40px;
+}
+ .blue-date-bg {
+  background-color: #3cd8e8;
+} 
+.green-date-bg {
+  background-color: #95b226;
+}
+.navyBlue-data-bg {
+  background-color: #5d58f0;
+}
+
 @media screen and (max-width: 576px) {
   header {
     margin: 0;
