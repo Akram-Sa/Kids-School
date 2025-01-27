@@ -346,7 +346,8 @@ section {
 /* footer */
 .footer-container {
   height: 250px;
-  padding: 123px;
+  /* padding: 123px; */
+  padding-top: 123px;
   background-color: #01acfd;
 }
 .footer {
@@ -364,7 +365,9 @@ section {
   font-size: 30px;
 }
 .footer-1st-section {
-  width: 500px;
+  /* width: 500px; */
+
+
 }
 .footer-1st-section p {
   padding-left: 20px;
@@ -519,15 +522,16 @@ section {
   /* footer */
   .footer-container{
     height: 100%;
-    /*width: 100%; */
+    /* width: 100%; */
     padding-top: 10%;
     padding-left: 10px;
   }
   .footer {
     display: flex;
     flex-direction: column;
-   width: 100%;
-    height: 100%;
+   /* width: 100%; */
+    /* height: 100%; */
+    /* overflow: hidden; */
     gap: 20px;
   }
 
@@ -542,6 +546,8 @@ section {
     font-size: 24px;
   }
 .footer-1st-section{
+  /* flex-shrink: 1; */
+  /* flex-basis: auto;  */
 }
   .footer-1st-section p {
    padding: 0;
