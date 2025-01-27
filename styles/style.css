@@ -332,6 +332,13 @@ section {
   text-align: center;
   padding-top: 80px;
 }
+/* .banner-text button:hover {
+  background-color: #01acfd;
+} */
+.view-btn button:hover{
+  color: black;
+  background-color: #def5ff;
+}
 .story-container button {
   background-color: black;
   color: white;
